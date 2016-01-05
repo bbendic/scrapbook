@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title>Pub/Sub</title>
+    <script src="lib/pub-sub.js"></script>
+</head>
+<body>
+    <script>
+
+        lib.EventBus.subscribe('topic', function(data){
+            console.log(data);
+        })
+
+        lib.EventBus.publish('topic', {x: 42});
+
+
+    </script>
+</body>
+</html>
