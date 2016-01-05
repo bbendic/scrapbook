@@ -1,2 +1,2 @@
 # scrapbook
-For all and everything 
+For all and everything. 
